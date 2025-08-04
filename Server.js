@@ -508,8 +508,7 @@ app.listen(5000, () => {
 
 
 app.get("/",(req,res)=>{
-    ({
-            status:true
-
-    })
+   res.json({
+    status:true
+   })
 })
