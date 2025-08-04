@@ -504,3 +504,12 @@ app.get("/addressget", async (req, res) => {
 app.listen(5000, () => {
     console.log("sever started at 5000")
 })
+
+
+
+app.get("/",(req,res)=>{
+    ({
+            status:true
+
+    })
+})
