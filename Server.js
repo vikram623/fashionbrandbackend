@@ -28,11 +28,12 @@ let Addressschema = require("./model/Address")
 // connect database
 const { mongoose } = require("mongoose")
 const Products = require("./model/Products")
-mongoose.connect("mongodb+srv://vikramprajapat699:UCLMXofUvOXgQkL2@cluster0.ofpee48.mongodb.net/").then((res) => {
+mongoose.connect("mongodb+srv://vikramprajapat699:lWsCwg2Kry9S7OX3@cluster0.ofpee48.mongodb.net/").then((res) => {
     console.log("mongodb connect")
 }).catch((err) => {
     console.log(err)
 })
+
 
 
 
