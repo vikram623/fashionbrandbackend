@@ -36,8 +36,6 @@ mongoose.connect("mongodb+srv://vikramprajapat699:lWsCwg2Kry9S7OX3@cluster0.ofpe
 
 
 
-
-
 // signup api
 app.post("/signup", async (req, res) => {
     // console.log(req.body)
