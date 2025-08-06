@@ -42,7 +42,7 @@ app.post("/signup", async (req, res) => {
     let userdata = await Userschema.insertOne({
         name: req.body.signupdata.name,
         email: req.body.signupdata.email,
-        password: req.body.signupdata.password,
+        password: req.body.signupdata.password,  
         mobile: req.body.signupdata.number
     })
 
