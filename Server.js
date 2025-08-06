@@ -65,7 +65,6 @@ app.post("/signup", async (req, res) => {
 
 
 
-
 // addproduct api
 app.post("/addproduct", async (req, res) => {
     console.log(req.body)
