@@ -175,7 +175,8 @@ app.post("/editprodut", async (req, res) => {
         })
     }
 
-    //  console.log(ourproduct.productname)
+
+        //  console.log(ourproduct.productname)
 
 })
 
